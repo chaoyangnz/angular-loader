@@ -1,0 +1,37 @@
+{
+  "name": "angular-loader",
+  "version": "1.0.0",
+  "description": "Webpack loader for Angular 2+ Single-File Components (SFCs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register --ui bdd --reporter spec --timeout 500 --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaoyangnz/angular-loader.git"
+  },
+  "keywords": [
+    "Webpack Loader",
+    "Angular",
+    "Single File Component"
+  ],
+  "author": "Chao Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaoyangnz/angular-loader/issues"
+  },
+  "homepage": "https://github.com/chaoyangnz/angular-loader#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "de-indent": "^1.0.2",
+    "hash-sum": "^1.0.2",
+    "parse5": "^3.0.1",
+    "webpack": "^4.9.1"
+  }
+}

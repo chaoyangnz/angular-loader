@@ -1,0 +1,17 @@
+<template>
+  <div>
+    <h1>Hello, Angular Single-File Component</h1>
+  </div>
+</template>
+
+<script>
+  export default class A {
+
+  }
+</script>
+
+<style>
+  div {
+    color: red;
+  }
+</style>
